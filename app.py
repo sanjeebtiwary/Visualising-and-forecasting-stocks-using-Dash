@@ -11,6 +11,21 @@ from datetable import datetable as dt
 app=dash.Dash(_name_)
 server=app.server
 app.layout = html.Div([item1, item2])
-Div.html(
-    []
-)
+html.Div(
+[
+html.P("Welcome to the Stock Dash App!", className="start"),
+html.Div([
+# stock code input
+
+]),
+html.Div([
+# Date range picker input
+]),
+html.Div([
+# Stock price button
+# Indicators button
+# Number of days of forecast input
+# Forecast button
+]),
+],
+className="nav")
