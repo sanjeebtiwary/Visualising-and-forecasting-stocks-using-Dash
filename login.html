@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Stocks Forecasting and Visualising Login</title>
+
 </head>
 <body>
 <center><h1>Welcome to the Stocks Forecasting and Visualising</h1></center>
@@ -18,10 +19,18 @@
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 <br><br>
+  <!--
+  <div class="container">
+    <label for="uname"><b>E-mail id</b></label>
+    <input type="text" placeholder="Enter E-mail id" name="ugmail" required>
+<br><br>
+-->
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="Password" required>
 <br><br>
     <button type="submit">Login</button>
+      <!--<button href="Register.html" type="Register">Register</button>-->
+            <button onclick="window.location.href = 'http://localhost:63342/Visualising-and-forecasting-stocks-using-Dash/Register.html?_ijt=i1h2pttf6l0rtp0g22j3cgot2u&_ij_reload=RELOAD_ON_SAVE'"> Register </button>
     <br><br>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
@@ -29,11 +38,10 @@
   </div>
 <br>
   <br>
-  <br>
-  <br>
   <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+      <br>
+    <span class="psw">Forgot <a href="#">password</a></span>
   </div>
 </form>
     </center>
